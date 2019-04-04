@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+            android:checkableBehavior="all"
+            android:id="@+id/grupoMenu">
+        <item
+                android:id="@+id/filtros"
+                android:title="Acciones">
+            <menu>
+                <item
+                        android:id="@+id/filtrar"
+                        android:title="Filtrar"
+                android:icon="@drawable/filter"/>
+                <item
+                        android:id="@+id/proximos"
+                        android:title="Agregar Punto"
+                android:icon="@drawable/add"/>
+
+            </menu>
+        </item>
+
+        <item
+                android:id="@+id/acerca"
+                android:title="Acerca">
+            <menu>
+                <item
+                        android:id="@+id/acerca_de"
+                        android:title="Acerca de"/>
+            </menu>
+        </item>
+    </group>
+
+
+</menu>

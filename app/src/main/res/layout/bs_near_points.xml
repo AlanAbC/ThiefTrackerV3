@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/bsb_near_points"
+              android:layout_width="match_parent"
+              android:layout_height="500dp"
+              android:orientation="vertical"
+              android:background="@color/white"
+              app:layout_behavior="@string/bottom_sheet_behavior"
+              app:behavior_hideable="true"
+              app:behavior_peekHeight="64dp" >
+
+
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/current_position_container" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/close_bsb" android:layout_width="25dp" android:layout_height="25dp" android:src="@drawable/close" android:padding="4dp" android:scaleType="centerInside" android:layout_alignParentEnd="true" android:layout_marginEnd="10dp" android:layout_marginTop="5dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Esta es tu ubicación actual" android:textAlignment="center" android:layout_marginTop="20dp" android:textStyle="bold" android:textColor="@color/gray_txt" android:textSize="17sp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

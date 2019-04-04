@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ThiefTrackerV3</string>
+    <string name="mapbox_access_token">
+        pk.eyJ1IjoiYWxhbmFiYyIsImEiOiJjanN6Nm0zODQwMmg3NGFsZWxlN3Zjd2VwIn0.RiQAQIMqEarDGXoviuxEJQ
+    </string>
+    <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
+</resources>
